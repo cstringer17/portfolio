@@ -10,13 +10,33 @@ $body-background-color :  #272822;
 $card-background-color:  #272822;
 $card-header-color: #CC205E;
 
+$text-strong:  #CC205E;
 
 $title-color: #CC205E;
 $subtitle-color: #CC205E;
 $text: #DDDDDD;
 
+$notification-code-background-color : #272822;
+$notification-background-color: #272822;
 
 @import "../node_modules/bulma/bulma";
+
+ 
+html {
+    overflow: hidden;
+}
+
+#console-output{
+    border: none;
+    resize: none;
+    overflow: hidden;
+}
+#console-input{
+    border: none;
+}
+#console{
+    margin-left: 2%;
+}
 
 
 

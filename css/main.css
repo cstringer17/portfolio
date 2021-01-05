@@ -339,7 +339,7 @@ span {
   font-weight: inherit; }
 
 strong {
-  color: #363636;
+  color: #CC205E;
   font-weight: 700; }
 
 fieldset {
@@ -368,7 +368,7 @@ table th {
     text-align: left; }
 
 table th {
-  color: #363636; }
+  color: #CC205E; }
 
 .is-clearfix::after {
   clear: both;
@@ -1159,7 +1159,7 @@ a.box:active {
   background-color: white;
   border-color: #dbdbdb;
   border-width: 1px;
-  color: #363636;
+  color: #CC205E;
   cursor: pointer;
   justify-content: center;
   padding-bottom: calc(0.5em - 1px);
@@ -1200,10 +1200,10 @@ a.box:active {
     text-decoration: underline; }
     .button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
       background-color: whitesmoke;
-      color: #363636; }
+      color: #CC205E; }
     .button.is-text:active, .button.is-text.is-active {
       background-color: #e8e8e8;
-      color: #363636; }
+      color: #CC205E; }
     .button.is-text[disabled],
     fieldset[disabled] .button.is-text {
       background-color: transparent;
@@ -2085,7 +2085,7 @@ a.box:active {
 .content h4,
 .content h5,
 .content h6 {
-  color: #363636;
+  color: #CC205E;
   font-weight: 600;
   line-height: 1.125; }
 
@@ -2185,17 +2185,17 @@ a.box:active {
     padding: 0.5em 0.75em;
     vertical-align: top; }
   .content table th {
-    color: #363636; }
+    color: #CC205E; }
     .content table th:not([align]) {
       text-align: left; }
   .content table thead td,
   .content table thead th {
     border-width: 0 0 2px;
-    color: #363636; }
+    color: #CC205E; }
   .content table tfoot td,
   .content table tfoot th {
     border-width: 2px 0 0;
-    color: #363636; }
+    color: #CC205E; }
   .content table tbody tr:last-child td,
   .content table tbody tr:last-child th {
     border-bottom-width: 0; }
@@ -2311,7 +2311,7 @@ a.box:active {
     width: 128px; }
 
 .notification {
-  background-color: whitesmoke;
+  background-color: #272822;
   border-radius: 4px;
   padding: 1.25rem 2.5rem 1.25rem 1.5rem;
   position: relative; }
@@ -2322,7 +2322,7 @@ a.box:active {
     color: currentColor; }
   .notification code,
   .notification pre {
-    background: white; }
+    background: #272822; }
   .notification pre code {
     background: transparent; }
   .notification > .delete {
@@ -2510,7 +2510,7 @@ a.box:active {
 
 .table {
   background-color: white;
-  color: #363636; }
+  color: #CC205E; }
   .table td,
   .table th {
     border: 1px solid #dbdbdb;
@@ -2581,7 +2581,7 @@ a.box:active {
       .table th.is-selected strong {
         color: currentColor; }
   .table th {
-    color: #363636; }
+    color: #CC205E; }
     .table th:not([align]) {
       text-align: left; }
   .table tr.is-selected {
@@ -2599,13 +2599,13 @@ a.box:active {
     .table thead td,
     .table thead th {
       border-width: 0 0 2px;
-      color: #363636; }
+      color: #CC205E; }
   .table tfoot {
     background-color: transparent; }
     .table tfoot td,
     .table tfoot th {
       border-width: 2px 0 0;
-      color: #363636; }
+      color: #CC205E; }
   .table tbody {
     background-color: transparent; }
     .table tbody tr:last-child td,
@@ -2835,7 +2835,7 @@ a.tag:hover {
   font-weight: 400;
   line-height: 1.25; }
   .subtitle strong {
-    color: #363636;
+    color: #CC205E;
     font-weight: 600; }
   .subtitle:not(.is-spaced) + .title {
     margin-top: -1.25rem; }
@@ -2888,15 +2888,15 @@ a.tag:hover {
   background-color: white;
   border-color: #dbdbdb;
   border-radius: 4px;
-  color: #363636; }
+  color: #CC205E; }
   .input::-moz-placeholder, .textarea::-moz-placeholder, .select select::-moz-placeholder {
-    color: rgba(54, 54, 54, 0.3); }
+    color: rgba(204, 32, 94, 0.3); }
   .input::-webkit-input-placeholder, .textarea::-webkit-input-placeholder, .select select::-webkit-input-placeholder {
-    color: rgba(54, 54, 54, 0.3); }
+    color: rgba(204, 32, 94, 0.3); }
   .input:-moz-placeholder, .textarea:-moz-placeholder, .select select:-moz-placeholder {
-    color: rgba(54, 54, 54, 0.3); }
+    color: rgba(204, 32, 94, 0.3); }
   .input:-ms-input-placeholder, .textarea:-ms-input-placeholder, .select select:-ms-input-placeholder {
-    color: rgba(54, 54, 54, 0.3); }
+    color: rgba(204, 32, 94, 0.3); }
   .input:hover, .textarea:hover, .select select:hover, .is-hovered.input, .is-hovered.textarea, .select select.is-hovered {
     border-color: #b5b5b5; }
   .input:focus, .textarea:focus, .select select:focus, .is-focused.input, .is-focused.textarea, .select select.is-focused, .input:active, .textarea:active, .select select:active, .is-active.input, .is-active.textarea, .select select.is-active {
@@ -3030,7 +3030,7 @@ a.tag:hover {
   .checkbox input, .radio input {
     cursor: pointer; }
   .checkbox:hover, .radio:hover {
-    color: #363636; }
+    color: #CC205E; }
   .checkbox[disabled], .radio[disabled],
   fieldset[disabled] .checkbox,
   fieldset[disabled] .radio {
@@ -3073,7 +3073,7 @@ a.tag:hover {
       .select select[multiple] option {
         padding: 0.5em 1em; }
   .select:not(.is-multiple):not(.is-loading):hover::after {
-    border-color: #363636; }
+    border-color: #CC205E; }
   .select.is-white:not(:hover)::after {
     border-color: white; }
   .select.is-white select {
@@ -3414,12 +3414,12 @@ a.tag:hover {
   position: relative; }
   .file-label:hover .file-cta {
     background-color: #eeeeee;
-    color: #363636; }
+    color: #CC205E; }
   .file-label:hover .file-name {
     border-color: #d5d5d5; }
   .file-label:active .file-cta {
     background-color: #e8e8e8;
-    color: #363636; }
+    color: #CC205E; }
   .file-label:active .file-name {
     border-color: #cfcfcf; }
 
@@ -3466,7 +3466,7 @@ a.tag:hover {
     font-size: 14px; }
 
 .label {
-  color: #363636;
+  color: #CC205E;
   display: block;
   font-size: 1rem;
   font-weight: 700; }
@@ -3704,7 +3704,7 @@ a.tag:hover {
     .breadcrumb li:first-child a {
       padding-left: 0; }
     .breadcrumb li.is-active a {
-      color: #363636;
+      color: #CC205E;
       cursor: default;
       pointer-events: none; }
     .breadcrumb li + li::before {
@@ -4021,7 +4021,7 @@ a.list-item {
     padding: 0.5em 0.75em; }
     .menu-list a:hover {
       background-color: whitesmoke;
-      color: #363636; }
+      color: #CC205E; }
     .menu-list a.is-active {
       background-color: #3273dc;
       color: #fff; }
@@ -4224,7 +4224,7 @@ a.list-item {
   border-top-right-radius: 6px; }
 
 .modal-card-title {
-  color: #363636;
+  color: #CC205E;
   flex-grow: 1;
   flex-shrink: 0;
   font-size: 1.5rem;
@@ -5073,7 +5073,7 @@ a.navbar-item,
 .pagination-next,
 .pagination-link {
   border-color: #dbdbdb;
-  color: #363636;
+  color: #CC205E;
   min-width: 2.5em; }
   .pagination-previous:hover,
   .pagination-next:hover,
@@ -5237,7 +5237,7 @@ a.navbar-item,
 .panel-heading {
   background-color: #ededed;
   border-radius: 6px 6px 0 0;
-  color: #363636;
+  color: #CC205E;
   font-size: 1.25em;
   font-weight: 700;
   line-height: 1.25;
@@ -5263,7 +5263,7 @@ a.navbar-item,
 
 .panel-block {
   align-items: center;
-  color: #363636;
+  color: #CC205E;
   display: flex;
   justify-content: flex-start;
   padding: 0.5em 0.75em; }
@@ -5326,8 +5326,8 @@ label.panel-block {
     padding: 0.5em 1em;
     vertical-align: top; }
     .tabs a:hover {
-      border-bottom-color: #363636;
-      color: #363636; }
+      border-bottom-color: #CC205E;
+      color: #CC205E; }
   .tabs li {
     display: block; }
     .tabs li.is-active a {
@@ -7113,3 +7113,17 @@ label.panel-block {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+html {
+  overflow: hidden; }
+
+#console-output {
+  border: none;
+  resize: none;
+  overflow: hidden; }
+
+#console-input {
+  border: none; }
+
+#console {
+  margin-left: 2%; }
