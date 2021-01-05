@@ -7123,6 +7123,11 @@ html {
   overflow: hidden; }
 
 #console-input {
+  border: none;
+  width: 84%; }
+
+#console-pre-text {
+  width: 15%;
   border: none; }
 
 #console {
