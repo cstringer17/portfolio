@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Callum Stringer</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbar" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          Home
+        </a>
+        <a class="navbar-item">
+          Projects
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <br>
+  <div class="tile is-ancestor">
+    <div class="tile is-vertical is-8">
+      <div class="tile">
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child notification is-primary">
+
+          </article>
+          <article class="tile is-child notification is-warning">
+
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-info">
+
+            <figure class="image is-4by3">
+
+            </figure>
+          </article>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-danger">
+          <div class="content">
+            <!-- Content -->
+
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Github profile section -->
+    <div class="tile is-parent has-text-centered">
+      <article class="tile is-child ">
+        <div class="content">
+          <div class="content">
+            <div class="card">
+              <div class="card-image">
+                <img id="github-profile-icon" alt="Placeholder image">
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h1 class="title" id="github-profile-name"></h1>
+                  <h2 class="subtitle" id="github-profile-username"></h2>
+                  <div id="github-profile-description"></div>
+                  <div id="github-profile-company"></div>
+                  <div id="github-profile-location"></div>
+                  <div id="github-profile-repos"></div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <img
+              src="https://github-readme-stats.vercel.app/api?username=cstringer17&theme=monokai&count_private=true&hide_border=true&line_height=24&show_icons=true" />
+            <br>
+            <img
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=cstringer17&theme=monokai&hide_border=true&layout=compact" />
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="lib/main.js"></script>
+  <script type="text/javascript" src="lib/github-profile.js"></script>
+</body>
+
+</html>

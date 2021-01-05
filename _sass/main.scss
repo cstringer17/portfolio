@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Source+Code+Pro:ital,wght@1,500&display=swap');
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+$family-primary:  'Source Code Pro', monospace;
+
+$body-background-color :  #272822;
+
+$card-background-color:  #272822;
+$card-header-color: #CC205E;
+
+
+$title-color: #CC205E;
+$subtitle-color: #CC205E;
+$text: #DDDDDD;
+
+
+@import "../node_modules/bulma/bulma";
+
+
+
+
