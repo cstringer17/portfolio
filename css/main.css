@@ -7136,3 +7136,7 @@ label.panel-block {
 
 #input-field {
   margin-top: 1%; }
+
+@media screen and (max-width: 600px) {
+  #console {
+    display: none; } }

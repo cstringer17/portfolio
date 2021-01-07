@@ -46,7 +46,11 @@ $notification-background-color: #272822;
 #input-field{
     margin-top: 1%;
 }
-
+@media screen and (max-width: 600px) {
+    #console {
+      display: none;
+    }
+  }
 
 
 
