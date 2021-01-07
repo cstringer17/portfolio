@@ -1,94 +1,228 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Callum Stringer</title>
-  <link rel="stylesheet" href="css/main.css">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Callum Stringer</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    </head>
 
-<body>
-  <!-- Navbar -->
-  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
+    <body>
+        <br>
+        <div class="tile is-ancestor">
+            <div class="tile is-vertical is-8">
 
+                <div class="tile is-parent">
+                    <article class="tile is-child ">
+                        <div
+                            class="content">
+                            <!-- Content -->
 
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-
-    <div id="navbar" class="navbar-menu">
-      <div class="navbar-start">
-        <a class="navbar-item" href="">
-          Home
-        </a>
-        <a class="navbar-item" href="pages/projects.html">
-          Projects
-        </a>
-      </div>
-    </div>
-  </nav>
-
-  <br>
-  <div class="tile is-ancestor">
-    <div class="tile is-vertical is-8">
-
-      <div class="tile is-parent">
-        <article class="tile is-child ">
-          <div class="content">
-            <!-- Content -->
-
-            <div id="console" class="box has-background-dark">
-              <h2>console</h2>
-              <textarea id="console-output" class="textarea has-background-dark" placeholder="" readonly
-                rows="25"></textarea>
-              <input id="console-pre-text" class="input has-background-dark is-static" value="guest@portfolio>"
-                readonly>
-              <input id="console-input" class="input has-background-dark is-static" type="text" value="">
-            </div>
-          </div>
-        </article>
-      </div>
-    </div>
-
-    <!-- Github profile section -->
-    <div class="tile is-parent has-text-centered">
-      <article class="tile is-child ">
-        <div class="content">
-          <div class="content">
-            <div class="card">
-              <div class="card-image">
-                <img id="github-profile-icon" alt="Placeholder image">
-              </div>
-              <div class="card-content">
-                <div class="content">
-                  <h1 class="title" id="github-profile-name"></h1>
-                  <h2 class="subtitle" id="github-profile-username"></h2>
-                  <div id="github-profile-description"></div>
-                  <div id="github-profile-company"></div>
-                  <div id="github-profile-location"></div>
-                  <div id="github-profile-repos"></div>
+                            <div data-aos="fade-up-right" data-aos-duration="2000" id="console" class="box">
+                                <h2>console</h2>
+                                <textarea id="console-output" class="textarea has-background-dark" placeholder="" readonly rows="25"></textarea>
+                                <div id="input-field" class="has-background-dark box">
+                                    <input id="console-pre-text" class="input  is-static" value="  guest@portfolio>" readonly>
+                                    <input id="console-input" class="input  is-static" type="text" value="">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-              </div>
             </div>
-            <br>
-            <img
-              src="https://github-readme-stats.vercel.app/api?username=cstringer17&theme=monokai&count_private=true&hide_border=true&line_height=24&show_icons=true" />
-            <br>
-            <img
-              src="https://github-readme-stats.vercel.app/api/top-langs/?username=cstringer17&theme=monokai&hide_border=true&layout=compact" />
-          </div>
+
+            <!-- Github profile section -->
+            <div data-aos="fade-up-left" data-aos-duration="2000" class="tile is-parent has-text-centered">
+                <article class="tile is-child ">
+                    <div class="content">
+                        <div class="content">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img id="github-profile-icon" alt="Placeholder image">
+                                </div>
+                                <div class="card-content">
+                                    <div class="content">
+                                        <h1 class="title" id="github-profile-name"></h1>
+                                        <h2 class="subtitle" id="github-profile-username"></h2>
+                                        <div id="github-profile-description"></div>
+                                        <div id="github-profile-company"></div>
+                                        <div id="github-profile-location"></div>
+                                        <div id="github-profile-repos"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <img src="https://github-readme-stats.vercel.app/api?username=cstringer17&theme=monokai&count_private=true&hide_border=true&line_height=24&show_icons=true"/>
+                            <br>
+                            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cstringer17&theme=monokai&hide_border=true&layout=compact"/>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </div>
-      </article>
-    </div>
-  </div>
-  <script type="text/javascript" src="lib/main.js"></script>
-  <script type="text/javascript" src="lib/console-commands.js"></script>
-</body>
+        <section data-aos="zoom-in" class="hero has-background-dark">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title">
+                        Projects
+                    </h1>
+                    <h2 class="subtitle">
+                        Here are some of my projects I have done
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <div class="container">
+            <div class="tile is-ancestor">
+                <div data-aos="zoom-in-right" class="tile is-parent ">
+                    <article class="tile is-child box has-background-dark">
+                        <p class="title">Vue CocktailDB</p>
+                        <p>A small vue application that displays information pulled from the CocktailDB API</p>
+                        <br>
+                        <a href="https://dazzling-borg-8bcb18.netlify.app/#/">
+                            <button class="button is-link">See it on Netlify</button>
+                        </a>
+                    </article>
+                </div>
+                <div data-aos="zoom-in-down" class="tile is-parent">
+                    <article class="tile is-child box has-background-dark">
+                        <p class="title">This portfolio</p>
+                        <p class="subtitle">Made with HTML, Bulma and javascript</p>
+                    </article>
+                </div>
+                <div data-aos="zoom-in-left" class="tile is-parent">
+                    <article class="tile is-child box has-background-dark">
+                        <p class="title">Vue TicTacToe</p>
+                        <p class="subtitle">TicTacToe made with Vue</p>
+                        <a href="https://frosty-lamport-9a4c86.netlify.app/">
+                            <button class="button is-link">See it on Netlify</button>
+                        </a>
+                    </article>
+                </div>
+            </div>
+
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-8">
+                    <div class="tile">
+                        <div data-aos="zoom-in-right" class="tile is-parent is-vertical">
+                            <article class="tile is-child box has-background-dark">
+
+                                <p class="title">GIBM Calendar Javascript Application</p>
+                                <div class="content">
+                                    <p>Display Information from GIBM-api inside a Fullcalender.js Calendar Element</p>
+                                    <a href="https://gibm.callumstringer.com">
+                                        <button class="button is-link">gibm.callumstringer.com</button>
+                                    </a>
+                                </div>
+                            </article>
+
+                        </div>
+                        <div data-aos="zoom-in" class="tile is-parent">
+                            <article class="tile is-child box has-background-dark">
+                                <p class="title">TBD</p>
+                                <p class="subtitle"></p>
+                            </article>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in-right" class="tile is-parent">
+                        <article class="tile is-child box has-background-dark">
+                            <p class="title">PictureSorter with Powershell</p>
+                            <p>This powershell scripts can sort .jpg files and sort them into subfolders, while also renaming them to a filename of choice</p>
+                            <br>
+                            <a href="https://github.com/cstringer17/PictureSorter">
+                                <button class="button is-link">See it on Github</button>
+                                <div class="content"></div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-left" class="tile is-parent">
+                    <article class="tile is-child box has-background-dark">
+                        <div class="content">
+                            <p class="title">Hashed Potatoes</p>
+                            <p class="subtitle">A PHP Password Manager</p>
+                            <div class="content">
+                                <p>The aim of this project was to create a platform where a user can register/login. Then redirect to the main application.
+                                </p>
+                                <p>Within the main application, the user can create/edit/delete personal information including a profile picture.
+                                                                                          The application also provides a password generator for the user to create strings and strong passwords.
+                                </p>
+                                <p>A password manager should be created to manage password entries.</p>
+
+                                <a href="https://github.com/cstringer17/HashedPotatoes">
+                                    <button class="button is-link">See it on Github</button>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <section data-aos="zoom-in" class="hero has-background-dark">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title">
+                        About me
+                    </h1>
+                    <h2 class="subtitle">
+                        Personal and Contact information
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <div class="container">
+            <div class="tile is-ancestor">
+                <div data-aos="zoom-in-left" class="tile is-parent">
+                    <article class="tile is-child box has-background-dark">
+                        <p class="title">Contact Information</p>
+                        <div class="content">
+                            <p>callumstringer10@gmail.com</p>
+                        </div>
+                    </article>
+                </div>
+                <div data-aos="zoom-in-right" class="tile is-parent is-8">
+                    <article class="tile is-child box has-background-dark">
+                        <p class="title">About me</p>
+                        <div class="content">
+                            <p>I am a IT Apprentice currently working at Idorsia Pharmaceuticals in Basel Switzerland. I work with Java and Maven. 
+                                                                              However in my freetime I like to play around
+                                                                              with WebDev. 
+                                                                              During my college days I have different school modules surrounding IT.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <footer class="footer has-background-dark">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Portfolio</strong>
+                    made by
+                    <a href="https://github.com/cstringer17">Callum</a>. The source code is licensed
+                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                                                        is licensed
+                    <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+                </p>
+            </div>
+        </footer>
+        <script type="text/javascript" src="lib/main.js"></script>
+        <script type="text/javascript" src="lib/console-commands.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
 
 </html>

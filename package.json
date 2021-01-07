@@ -68,5 +68,7 @@
     "start": "npm-run-all --parallel css-watch js-watch"
   },
   "version": "0.0.4",
-  "dependencies": {}
+  "dependencies": {
+    "aos": "^3.0.0-beta.6"
+  }
 }
